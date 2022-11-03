@@ -77,7 +77,7 @@ module "blog_alb" {
   ]
 
   tags = {
-    Environment = ${var.environment.name}
+    Environment = var.environment.name
   }
 }
 
